@@ -1,0 +1,293 @@
+*{
+    margin:0px ;
+}
+body {
+    background-color: #fff;
+  }
+  
+@media (min-width: 30em) and (max-width: 80em) {
+    body {
+      background-color: lightblue;
+    }
+  }
+.nav{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+        position:sticky;
+        top:0;
+    }
+
+
+    a{
+        margin:40px;
+        color:black;
+        text-decoration:none;
+    }
+    img{
+        width:100%;
+        height:800px;
+    }
+  
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size :50px;
+    position:absolute;
+    top:100px;
+    left:550px;
+    color:white;
+    }
+.img2{
+    width:1300px;
+    height:450px;
+    display: flex;
+   
+}
+
+.Home{
+    display: flex;
+   
+       
+}
+
+.intro{
+    flex-direction: column;
+    text-align: justify;
+    display: flex;
+   
+    background-color: lightblue;
+    width: 850px;
+    border: 1px solid black;
+    padding: 10px;
+     }
+#Videos{
+    background-color: lightblue;
+    border: 2px solid black;
+    width:1500px;
+    height:830px;
+    margin-top: 10px;
+}
+    
+h1{
+   text-align: center;
+    margin-top: 30px;
+ 
+}
+
+    
+    
+
+.vid1{
+    margin:35px;
+    display: flex;
+    float: left;
+}
+.vid2{
+    margin:35px;
+    display: flex;
+   float: left;
+   }
+.vid3{
+    margin:35px;
+    float: left;
+    display: flex;
+
+}
+
+.vid4{
+    margin:35px;
+   
+   display: flex;
+   float: left;
+    
+}
+.vid5{
+    margin:35px;
+   
+    display: flex;
+    float: left;
+}
+.vid6{
+    margin:35px;
+   
+    display: flex;
+    float: left;
+}
+.vid7{
+    margin:35px;
+   
+    display: flex;
+    float: left;
+}
+.vid8{
+    margin:35px;
+   
+    display: flex;
+    float: left;
+}
+.wiki{
+    width:1500px;
+    height:600px;
+}
+.buybook1{
+    border:1px solid black;
+    width:300px;
+    height:450px;
+    margin-left:330px;
+    margin-top:20px;
+}
+.buybook2{
+    border:1px solid black;
+    width:300px;
+    height:450px;
+    margin-left:250px;
+    margin-top:20px;
+}
+
+.book1{
+    width:300px;
+    height:300px;
+    
+   
+   
+}
+.book2{
+    width:300px;
+    height:300px;
+    
+  
+}
+.books{
+  
+   background-color: lightblue;
+   display: flex;
+  
+    
+    
+}   
+.bookh3{
+   text-align: center;
+}
+
+.bookp1{
+    
+   text-align: center;
+    font-size: 20px;
+}
+.book1btn{
+    text-align: center;
+    margin-left: 120px;
+    background-color: white;
+}
+
+.book2h3{
+    text-align: center;
+}
+.bookp2{
+    text-align: center;
+    font-size:20px ;
+    
+}
+.book2btn{
+    text-align: center;
+    margin-left: 120px;
+    background-color: white;
+}
+.book1btn:hover{
+    background-color:lightblue;
+}
+.book2btn:hover{
+    background-color:lightblue;
+}
+.awards1{
+    width:280px;
+    height:300px;
+    
+   
+   
+}
+.award11{
+    border:1px solid black;
+    width:280px;
+    height:400px;
+    padding:5px;
+    
+    
+}
+.awards2{
+    width:280px;
+    height:300px;
+    
+   
+}
+.award22{
+    border:1px solid black;
+    width:280px;
+    height:400px;
+   padding: 5px;
+}
+.Awards{
+    display: flex;
+    background-color: lightblue;
+}
+.awards3{
+    width:280px;
+    height:300px;
+}
+.awards4{
+    width:280px;
+    height:300px;
+}
+.awards5{
+    width:280px;
+    height:300px;
+}
+.award33{
+    border:1px solid black;
+    width:300px;
+    height:400px;
+   padding: 5px;
+}
+.award44{
+    border:1px solid black;
+    width:300px;
+    height:400px;
+    padding: 5px;
+    
+}
+.award55{
+    border:1px solid black;
+    width:300px;
+    height:400px;
+    padding: 5px;
+}
+.details{
+ display: flex;
+ margin:30px;
+}
+.form{
+    margin:50px;
+}
+.message{
+    margin-left:10px;
+}
+input{
+    margin-left:25px;
+    height:20px;
+    width:200px;
+}
+button{
+    margin-left:150px;
+    height:30px;
+    background-color: green;
+}
+.help{
+    margin:30px;
+    margin-left: 100px;
+}
+#links{
+    text-align: center;
+}
